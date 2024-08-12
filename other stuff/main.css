@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Courier;
+}
+.header {
+    border: 2px solid rgb(44, 30, 30);
+    padding-bottom: 60px;
+    background-color: rgb(90, 207, 153);
+}
+.header img {
+    float: left;
+    margin: 10px;
+    border: 5px solid rgb(44, 30, 30);
+}
+.header h1, .header h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.main-content {
+    margin: 15px;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(44, 30, 30);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contacts * {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contacts h4 {
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(90, 207, 153);
+}
+.contacts li {
+    list-style-type: none;
+    display: inline-block;
+}
+.contacts li a {
+    color: white;
+    text-decoration: none;
+}
+.contacts li a:hover {
+    color: rgb(90, 207, 153);
+    background-color: rgb(44, 30, 30);
+}
